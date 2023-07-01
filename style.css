@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    height: 3.2rem;
+}
+
+ul img {
+    height: 35px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 20px;
+    border-style: none;
+    text-align: center;
+    height: 1.5rem;
+    color: white;
+    background-color: rgb(39, 38, 38);
+}
+#searchicon{
+    position: relative;
+    right: 20px;
+    color: #958686;
+}
+
+.logotext {
+    font-weight: bold
+}
+
+.center {
+    background-color: black;
+    margin: 7rem auto;
+    margin-bottom: 0px;
+    height: 30rem;
+    width: 50rem;
+}
+
+.center img {
+    height: 30rem;
+    width: 50rem;
+}
+
+.players {
+    background-color: rgb(39, 38, 38);
+    position: absolute;
+    bottom: 0px;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input[type="range"] {
+    width: 100%;
+    appearance: none;
+    height: 2px;
+    cursor: pointer;
+}
+
+.players i {
+    font-size: 35px;
+    color: aliceblue;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    position: absolute;
+    left: 10px;
+}
+
+.songgif img{
+height: 25px;
+position: relative;
+right: 73rem;
+top: 15px;
+opacity: 0;
+}
